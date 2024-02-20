@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Advent of Code 2017, Day {{ day }}{% endblock %}
+
+{% block body %}
+    <p>
+        <a href="{{ questions }}">Questions</a>
+        <a href="{{ input }}">Input</a>
+    </p>
+    <p>
+        Answer One: {{ answerOne }}<br />
+        Answer Two: {{ answerTwo }}
+    </p>
+{% endblock %}

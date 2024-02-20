@@ -1,0 +1,7 @@
+index:
+  path: /
+  controller: 'App\Controller\DefaultController::index'
+
+day:
+  path: /{number}
+  controller: 'App\Controller\DefaultController::day'
